@@ -71,7 +71,7 @@ int main(void)
 
     SetTargetFPS(30);
 
-    char *text_data = read_file("resources/font.bin");
+    char *text_data = read_file("resources/chars.bin");
 
     int codepointsCount;
     int *codepoints = LoadCodepoints(text_data, &codepointsCount);
