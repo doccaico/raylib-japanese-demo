@@ -1,5 +1,8 @@
-## Raylib Template
+## Example of displaying japanese in Raylib
 
+<img width="802" height="477" alt="pic" src="https://github.com/user-attachments/assets/e82a785a-70ad-45ce-ada7-c1af60f6c39a" />
+
+## How to build
 ### Windows (MSVC)
 ```bash
 # Debug Build
