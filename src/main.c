@@ -80,8 +80,7 @@ int main(void)
 
     SetTextureFilter(font.texture, TEXTURE_FILTER_BILINEAR);
 
-    while (!WindowShouldClose())
-    {
+    while (!WindowShouldClose()) {
         BeginDrawing();
             ClearBackground(RAYWHITE);
             DrawTextEx(font, writing, (Vector2){10, 10}, 24.0, 2.5, BLACK);
