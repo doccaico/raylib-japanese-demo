@@ -1,6 +1,6 @@
 ## Example of displaying japanese in Raylib
 
-<img width="802" height="477" alt="pic" src="https://github.com/user-attachments/assets/e82a785a-70ad-45ce-ada7-c1af60f6c39a" />
+<img width="802" height="477" alt="pic" src="https://github.com/user-attachments/assets/09e54dfb-e021-4108-9e0a-ff6815ab6039" />
 
 ## How to build
 ### Windows (MSVC)
