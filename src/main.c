@@ -26,6 +26,7 @@ void die(const char *fmt, ...)
     va_list ap;
     va_start(ap, fmt);
     vsprintf(msg, fmt, ap);
+    fprintf(stderr, "%s\n", msg);
     va_end(ap);
     exit(EXIT_FAILURE);
 }
@@ -66,12 +67,12 @@ int main(void)
     const int screenWidth = 800;
     const int screenHeight = 450;
 
+    char *text_data = read_file("resources/chars.bin");
+
     SetConfigFlags(FLAG_MSAA_4X_HINT);
     InitWindow(screenWidth, screenHeight, "I Am a Cat");
 
     SetTargetFPS(30);
-
-    char *text_data = read_file("resources/chars.bin");
 
     int codepointsCount;
     int *codepoints = LoadCodepoints(text_data, &codepointsCount);
